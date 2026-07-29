@@ -328,6 +328,85 @@
     &:hover { color: #0272a5; }
   }
 
+  // Showcase page
+  .showcase-hero {
+    border-bottom-color: #dde3ed;
+
+    h1 { color: #0f172a; }
+  }
+
+  .showcase-eyebrow {
+    color: #0272a5;
+    background: rgba(0, 200, 255, 0.06);
+    border-color: rgba(0, 200, 255, 0.2);
+  }
+
+  .showcase-lead {
+    color: #334155;
+    strong { color: #0f172a; }
+  }
+
+  .showcase-sublead { color: #64748b; }
+
+  .showcase-section {
+    h2 { color: #0f172a; }
+    > p { color: #334155; }
+  }
+
+  .showcase-note { color: #64748b !important; }
+
+  .showcase-pills li {
+    color: #334155;
+    background: #ffffff;
+    border-color: #dde3ed;
+  }
+
+  .showcase-card,
+  .showcase-section--apply {
+    background: #ffffff;
+    border-color: #dde3ed;
+
+    h2 { color: #0f172a; }
+  }
+
+  .showcase-card-badge {
+    color: #0272a5;
+    background: rgba(0, 200, 255, 0.06);
+    border-color: rgba(0, 200, 255, 0.2);
+  }
+
+  .showcase-list li { color: #334155; }
+
+  .showcase-material {
+    background: #ffffff;
+    border-color: #dde3ed;
+
+    strong { color: #0f172a; }
+    p { color: #64748b; }
+  }
+
+  .showcase-material-num { color: #0272a5; }
+
+  .showcase-callout {
+    background:
+      radial-gradient(ellipse 80% 120% at 0% 50%, rgba(0, 200, 255, 0.05) 0%, transparent 55%),
+      #eef2f7;
+    border-color: #dde3ed;
+
+    h2 { color: #0f172a; }
+    p { color: #334155; }
+  }
+
+  .showcase-steps li {
+    color: #334155;
+
+    &::before {
+      color: #0272a5;
+      background: rgba(0, 200, 255, 0.06);
+      border-color: rgba(0, 200, 255, 0.2);
+    }
+  }
+
   // Footer
   .site-footer {
     background: #eef2f7;
